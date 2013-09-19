@@ -11,14 +11,13 @@
 		6B33F54117EB1B3E00C0F51D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B33F54017EB1B3E00C0F51D /* CoreGraphics.framework */; };
 		6B33F54317EB1B3E00C0F51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B33F54217EB1B3E00C0F51D /* UIKit.framework */; };
 		6B33F54917EB1B3E00C0F51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B33F54717EB1B3E00C0F51D /* InfoPlist.strings */; };
-		6B33F54B17EB1B3E00C0F51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33F54A17EB1B3E00C0F51D /* main.m */; };
-		6B33F54F17EB1B3E00C0F51D /* LockyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33F54E17EB1B3E00C0F51D /* LockyAppDelegate.m */; };
 		6B33F55117EB1B3E00C0F51D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B33F55017EB1B3E00C0F51D /* Images.xcassets */; };
 		6B33F55817EB1B3E00C0F51D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B33F55717EB1B3E00C0F51D /* XCTest.framework */; };
 		6B33F55917EB1B3E00C0F51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B33F53E17EB1B3E00C0F51D /* Foundation.framework */; };
 		6B33F55A17EB1B3E00C0F51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B33F54217EB1B3E00C0F51D /* UIKit.framework */; };
 		6B33F56217EB1B3E00C0F51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B33F56017EB1B3E00C0F51D /* InfoPlist.strings */; };
 		6B33F56417EB1B3E00C0F51D /* LockyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33F56317EB1B3E00C0F51D /* LockyTests.m */; };
+		6B33F56E17EB1BF400C0F51D /* count-lock-mem-barrier.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B33F56D17EB1BF400C0F51D /* count-lock-mem-barrier.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +37,15 @@
 		6B33F54217EB1B3E00C0F51D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6B33F54617EB1B3E00C0F51D /* Locky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Locky-Info.plist"; sourceTree = "<group>"; };
 		6B33F54817EB1B3E00C0F51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6B33F54A17EB1B3E00C0F51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B33F54C17EB1B3E00C0F51D /* Locky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Locky-Prefix.pch"; sourceTree = "<group>"; };
-		6B33F54D17EB1B3E00C0F51D /* LockyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockyAppDelegate.h; sourceTree = "<group>"; };
-		6B33F54E17EB1B3E00C0F51D /* LockyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockyAppDelegate.m; sourceTree = "<group>"; };
 		6B33F55017EB1B3E00C0F51D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B33F55617EB1B3E00C0F51D /* LockyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B33F55717EB1B3E00C0F51D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6B33F55F17EB1B3E00C0F51D /* LockyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockyTests-Info.plist"; sourceTree = "<group>"; };
 		6B33F56117EB1B3E00C0F51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B33F56317EB1B3E00C0F51D /* LockyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockyTests.m; sourceTree = "<group>"; };
+		6B33F56D17EB1BF400C0F51D /* count-lock-mem-barrier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "count-lock-mem-barrier.c"; sourceTree = "<group>"; };
+		6B33F56F17EB1C1600C0F51D /* count.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = count.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +105,8 @@
 		6B33F54417EB1B3E00C0F51D /* Locky */ = {
 			isa = PBXGroup;
 			children = (
-				6B33F54D17EB1B3E00C0F51D /* LockyAppDelegate.h */,
-				6B33F54E17EB1B3E00C0F51D /* LockyAppDelegate.m */,
+				6B33F56F17EB1C1600C0F51D /* count.h */,
+				6B33F56D17EB1BF400C0F51D /* count-lock-mem-barrier.c */,
 				6B33F55017EB1B3E00C0F51D /* Images.xcassets */,
 				6B33F54517EB1B3E00C0F51D /* Supporting Files */,
 			);
@@ -120,7 +118,6 @@
 			children = (
 				6B33F54617EB1B3E00C0F51D /* Locky-Info.plist */,
 				6B33F54717EB1B3E00C0F51D /* InfoPlist.strings */,
-				6B33F54A17EB1B3E00C0F51D /* main.m */,
 				6B33F54C17EB1B3E00C0F51D /* Locky-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -240,8 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B33F54B17EB1B3E00C0F51D /* main.m in Sources */,
-				6B33F54F17EB1B3E00C0F51D /* LockyAppDelegate.m in Sources */,
+				6B33F56E17EB1BF400C0F51D /* count-lock-mem-barrier.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
